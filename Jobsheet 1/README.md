@@ -1,3 +1,19 @@
+6.	Penjelasan anggota/tambah.html (Form Tambah Anggota)
+    6.5	Latihan Reflektif 
+    Sebagai latihan mandiri, coba bandingkan sendiri form ini dengan form buku dan jawab pertanyaan berikut untuk menguji pemahaman: 
+    1.	Kenapa field "Alamat" dan "No. HP" tidak diberi required, sedangkan "Nama" dan "No. Anggota" diberi? 
+    Jawab :
+    Field "Nama" dan "No. Anggota" diberi atribut required karena keduanya merupakan data pokok yang mutlak diperlukan sistem untuk mengidentifikasi seorang anggota perpustakaan. Sebaliknya, field "Alamat" dan "No. HP" tidak diberi required karena dianggap sebagai data opsional; pendaftaran anggota tetap dapat diproses meskipun informasi sekunder tersebut belum tersedia saat itu.
+    2.	Apa yang akan terjadi (di browser) kalau kamu klik tombol "Simpan" tanpa mengisi field "Nama"? Coba buka filenya di browser dan praktikkan. 
+    Jawab :
+    Browser akan membatalkan proses pengiriman (submit) form dan menampilkan pesan peringatan validasi otomatis bawaan HTML5. Sebuah pop-up kecil dengan teks seperti "Please fill out this field." atau "Isi bidang ini." akan muncul tepat di atas kotak isian "Nama" untuk memberi tahu pengguna bahwa bagian tersebut wajib diisi. 
+
+    3.	Form ini juga belum punya action pada tag <form>-nya — apa dampaknya saat tombol "Simpan" ditekan? 
+    Jawab :
+    Tanpa adanya atribut action pada tag <form>, aplikasi belum terhubung ke server atau skrip pemrosesan data. Dampaknya, saat tombol "Simpan" ditekan, browser hanya akan memuat ulang (reload) halaman yang sama dan data tidak akan benar-benar tersimpan
+ 
+
+
 7.	Rangkuman & Latihan Lanjutan
     7.4	Latihan
         1.	Lengkapi konsistensi menu — tambahkan tautan "Daftar Anggota" dan "Tambah Anggota" ke menu <nav> di index.html, buku/list.html, dan buku/tambah.html (lihat catatan di dokumentasi anggota/list.html §5.4).
