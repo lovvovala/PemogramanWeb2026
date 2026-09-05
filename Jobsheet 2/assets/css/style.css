@@ -70,7 +70,7 @@ section h2 {
 /* ===== Kartu Statistik (CSS Grid) ===== */
 main section:nth-of-type(2) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* Diubah menjadi 4 kolom */
     gap: 1rem;
 }
 
@@ -132,6 +132,11 @@ td button:first-of-type {
     color: #fff;
 }
 
+td button.btn-detail {
+    background-color: #4682B4; /* Warna steal blue untuk Detail */
+    color: #fff;
+}
+
 td button:last-of-type {
     background-color: #d9534f;
     color: #fff;
@@ -170,7 +175,7 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-    background-color: #164869;
+    background-color: #C71585;
 }
 
 /* ===== Footer ===== */
