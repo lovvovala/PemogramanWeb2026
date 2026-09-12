@@ -226,3 +226,10 @@ footer {
     
     form input, form select { max-width: 100%; }
 }
+
+/* ===== Breakpoint Monitor Ekstra Lebar ===== */
+@media (min-width: 1400px) {
+    main {
+        max-width: 1200px; /* Diperlebar dari nilai awal 1000px */
+    }
+}
