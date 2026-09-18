@@ -181,6 +181,16 @@ document.addEventListener("DOMContentLoaded", function () {
   initHapusConfirm();
   initValidasiForm();
 
+  // 1. Kait untuk tombol hamburger
+    const btnHamburger = document.getElementById('nav-toggle-btn');
+    const navMenu = document.getElementById('nav-menu');
+
+    // Jika tombol diklik, tambah/hapus class 'menu-aktif' pada <nav>
+    if (btnHamburger && navMenu) {
+        btnHamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('menu-aktif');
+        });
+    }
   // Deteksi otomatis apakah file HTML ada di dalam subfolder (misal /buku/ atau /anggota/)
   const isSubfolder = window.location.pathname.includes("/buku/") || window.location.pathname.includes("/anggota/");
   const jsonPath = isSubfolder ? "../data/buku.json" : "data/buku.json";
