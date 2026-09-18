@@ -1,0 +1,20 @@
+{
+  "buku": [
+    { "isbn": "978-602-03-8829-8", "judul": "Laskar Pelangi", "pengarang": "Andrea Hirata", "tahun": 2005, "stok": 4 },
+    { "isbn": "978-979-3062-79-2", "judul": "Bumi Manusia", "pengarang": "Pramoedya Ananta Toer", "tahun": 1980, "stok": 2 },
+    { "isbn": "978-602-06-3317-6", "judul": "Laut Bercerita", "pengarang": "Leila S. Chudori", "tahun": 2017, "stok": 5 },
+    { "isbn": "978-979-22-6180-6", "judul": "Negeri 5 Menara", "pengarang": "Ahmad Fuadi", "tahun": 2009, "stok": 3 },
+    { "isbn": "978-602-03-2470-8", "judul": "Hujan", "pengarang": "Tere Liye", "tahun": 2016, "stok": 6 },
+    { "isbn": "978-979-1227-78-0", "judul": "Perahu Kertas", "pengarang": "Dee Lestari", "tahun": 2009, "stok": 3 },
+    { "isbn": "978-602-03-3294-9", "judul": "Cantik Itu Luka", "pengarang": "Eka Kurniawan", "tahun": 2002, "stok": 1 },
+    { "isbn": "978-602-03-8584-6", "judul": "Ronggeng Dukuh Paruk", "pengarang": "Ahmad Tohari", "tahun": 1982, "stok": 4 },
+    { "isbn": "978-979-22-3867-9", "judul": "5 cm", "pengarang": "Donny Dhirgantoro", "tahun": 2005, "stok": 7 },
+    { "isbn": "978-602-06-4932-0", "judul": "Filosofi Kopi", "pengarang": "Dee Lestari", "tahun": 2006, "stok": 2 }
+  ],
+  "anggota": [
+    { "no_anggota": "A001", "nama": "Ahmad Dahlan", "email": "ahmad@mail.com", "status": "Aktif" },
+    { "no_anggota": "A002", "nama": "Siti Walidah", "email": "siti@mail.com", "status": "Aktif" },
+    { "no_anggota": "A003", "nama": "Budi Santoso", "email": "budi@mail.com", "status": "Non-Aktif" },
+    { "no_anggota": "A004", "nama": "Dewi Sartika", "email": "dewi@mail.com", "status": "Aktif" }
+  ]
+}
