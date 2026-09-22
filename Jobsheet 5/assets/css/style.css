@@ -47,8 +47,7 @@ header nav a {
     font-weight: 500;
 }
 
-.nav-toggle,
-.nav-toggle-label {
+#nav-toggle-btn {
     display: none;
 }
 
@@ -213,10 +212,7 @@ footer {
         position: relative;
     }
 
-    .nav-toggle-label {
-        display: block;
-    }
-
+   
     header nav {
         display: none;
         width: 100%;
@@ -224,14 +220,17 @@ footer {
     }
 
     /* TAMBAHKAN KODE INI DI DALAM @media (max-width: 480px) */
-    .nav-toggle-btn {
-        display: block;
-        background: none;
-        border: none;
-        color: #fff;
-        font-size: 1.6rem;
-        cursor: pointer;
-    }
+    #nav-toggle-btn {
+    display: block;
+    background-color: transparent !important; /* Paksa transparan */
+    border: none !important;                  /* Paksa tanpa garis */
+    outline: none;                            /* Hilangkan garis biru saat diklik */
+    color: #fff;                              /* Warna ikon putih */
+    font-size: 1.8rem;                        /* Ukuran disesuaikan */
+    cursor: pointer;
+    padding: 0;                               /* Hilangkan jarak bawaan tombol */
+    appearance: none;                         /* Matikan gaya bawaan OS/Browser */
+}
 
     /* Class ini akan ditambahkan otomatis oleh JS saat tombol diklik */
     header nav.menu-aktif {
