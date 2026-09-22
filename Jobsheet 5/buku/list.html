@@ -24,42 +24,114 @@
     </header>
 
     <main>
-        <section>
+         <section>
             <h2>Daftar Buku</h2>
-
-            <!-- TAMBAHKAN KODE INPUT INI -->
-            <div style="margin-bottom: 15px;">
-                <input type="text" id="search-input" placeholder="Cari judul buku..." style="padding: 8px; width: 100%; max-width: 300px; border: 1px solid #ccc; border-radius: 4px;">
-            </div>
-            
-            <!-- TUGAS MANDIRI NO 3: Penghitung Jumlah Buku -->
-            <p id="counter-buku" style="font-weight: bold; margin-bottom: 10px;">
-                Menampilkan 0 dari 0 buku
-            </p>
-
-            <!-- PRAKTIKUM HARI INI: Indikator Loading saat Fetch API -->
-            <div id="loading-indicator" style="display: none; font-style: italic; color: #666; margin-bottom: 10px;">
-                Memuat data buku...
-            </div>
-
             <div class="table-responsive">
-                <!-- Kait ID 'tabel-buku' ditambahkan agar mudah diakses JavaScript -->
-                <table id="tabel-buku">
-                    <thead>
-                        <tr>
-                            <!-- TUGAS MANDIRI NO 1: Ditambahkan kolom ISBN -->
-                            <th>ISBN</th>
-                            <th>Judul</th>
-                            <th>Pengarang</th>
-                            <th>Tahun</th>
-                            <th>Stok</th>
-                            <th>Aksi</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- Biarkan KOSONG! JavaScript yang akan mengisi baris ini via fetch() -->
-                    </tbody>
-                </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Judul</th>
+                        <th>Pengarang</th>
+                        <th>Tahun</th>
+                        <th>Stok</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Laskar Pelangi</td>
+                        <td>Andrea Hirata</td>
+                        <td>2005</td>
+                        <td>4</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bumi Manusia</td>
+                        <td>Pramoedya Ananta Toer</td>
+                        <td>1980</td>
+                        <td>2</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Negeri 5 Menara</td>
+                        <td>Ahmad Fuadi</td>
+                        <td>2009</td>
+                        <td>0</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Filosofi Teras</td>
+                        <td>Henry Manampiring</td>
+                        <td>2018</td>
+                        <td>5</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ronggeng Dukuh Paruk</td>
+                        <td>Ahmad Tohari</td>
+                        <td>1984</td>
+                        <td>1</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+                    <!-- Data Tambahan 1 -->
+                    <tr>
+                        <td>Lucunya Prabowo</td>
+                        <td>N Ahmad Subagya dan Sunano</td>
+                        <td>2024</td>
+                        <td>5</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+
+                    <!-- Data Tambahan 2 -->
+                    <tr>
+                        <td>Time Raiders</td>
+                        <td>Xu Lei</td>
+                        <td>2006</td>
+                        <td>3</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+
+                    <!-- Data Tambahan 3 -->
+                    <tr>
+                        <td> Sahabat</td>
+                        <td>Agam Wispi</td>
+                        <td>1959</td>
+                        <td>1</td>
+                        <td>
+                            <button type="button">Edit</button>
+                            <button type="button" class="btn-detail">Detail</button>
+                            <button type="button">Hapus</button>
+                        </td>
+                    </tr>
+            </table>
             </div>
         </section>
     </main>
