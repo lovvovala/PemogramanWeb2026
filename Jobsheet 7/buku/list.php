@@ -5,7 +5,7 @@ include __DIR__ . '/../includes/header.php';
 // Menangkap flash message dari proses_tambah
 $flash = $_SESSION['flash'] ?? null;
 unset($_SESSION['flash']);
-unset($_SESSION['buku']);
+
 
 // Mengambil data buku dari session
 $daftarBuku = $_SESSION['buku'] ?? [];
