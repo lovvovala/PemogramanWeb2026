@@ -27,33 +27,25 @@ if ($jenis_kelamin !== 'laki-laki' && $jenis_kelamin !== 'perempuan') {
 
 ---
 
-## 3. Hasil Uji Coba dan Bukti *Screenshot*
+## 3. Hasil Uji Coba 
 
-Berikut adalah dokumentasi tangkapan layar (*screenshot*) dari hasil pengujian program yang telah dilakukan:
+Berikut adalah dokumentasi hasil pengujian program yang telah dilakukan:
 
 ### A. Uji Coba Validasi ISBN (Error Merah)
 * **Keterangan:** Pengujian dilakukan dengan memasukkan karakter huruf (`123-456-ABC`) pada kolom ISBN. Sistem *server-side* menolak inputan tersebut dan memunculkan pesan peringatan berwarna merah.
-* **Letak Screenshot di Laporan:**
-  > *[ Sisipkan gambar screenshot pesan error merah validasi ISBN di sini ]*
-  > *Gambar 7.1: Validasi gagal saat ISBN mengandung huruf.*
+
 
 ### B. Uji Coba Validasi Form Anggota (Error Merah)
 * **Keterangan:** Pengujian dilakukan dengan mengisi format email atau nomor HP yang tidak valid. Sistem berhasil mencegat dan menampilkan pesan *flash error*.
-* **Letak Screenshot di Laporan:**
-  > *[ Sisipkan gambar screenshot pesan error merah validasi anggota di sini ]*
-  > *Gambar 7.2: Validasi sisi server pada form tambah anggota.*
+
 
 ### C. Uji Coba Penyimpanan Data Sukses (Flash Message Hijau)
 * **Keterangan:** Ketika seluruh data formulir diisi dengan benar dan valid, server memproses data ke dalam `$_SESSION`, mengalihkan halaman ke tabel, serta merender notifikasi hijau "Buku berhasil ditambahkan."
-* **Letak Screenshot di Laporan:**
-  > *[ Sisipkan gambar screenshot tabel dengan flash message hijau di sini ]*
-  > *Gambar 7.3: Data berhasil tersimpan dan dirender oleh PHP ke dalam tabel.*
+
 
 ### D. Uji Coba Sifat Sementara Data Session
 * **Keterangan:** Membuktikan bahwa data yang disimpan di dalam `$_SESSION` bersifat sementara. Ketika *browser* ditutup sepenuhnya dan dibuka kembali, tabel data otomatis kosong kembali.
-* **Letak Screenshot di Laporan:**
-  > *[ Sisipkan gambar screenshot tabel kosong setelah browser ditutup ulang di sini ]*
-  > *Gambar 7.4: Tabel kembali kosong setelah sesi peramban berakhir.*
+
 
 ---
 
