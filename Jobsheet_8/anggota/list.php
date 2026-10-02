@@ -6,7 +6,7 @@ include __DIR__ . '/../includes/header.php';
 $flash = $_SESSION['flash'] ?? null;
 unset($_SESSION['flash']);
 
-// ---> JAWABAN LATIHAN 3 DITARUH DI SINI <---
+// ---> JAWABAN LATIHAN 3 
 // 1. Tangkap kata kunci pencarian dari URL (GET)
 $keyword = trim($_GET['keyword'] ?? '');
 

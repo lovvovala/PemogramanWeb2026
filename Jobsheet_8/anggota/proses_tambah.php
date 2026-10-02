@@ -30,7 +30,7 @@ if (!empty($errors)) {
     exit;
 }
 
-//  JAWABAN NOMOR 1 DITARUH 
+//  JAWABAN NOMOR 1 
 try {
     $stmt = $pdo->prepare(
         "INSERT INTO anggota (nama, no_anggota, alamat, no_hp, jenis_kelamin, email) 
